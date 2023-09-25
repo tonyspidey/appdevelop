@@ -1,0 +1,200 @@
+/* Main Container */
+.home-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #e6e6e6; /* Light gray background color */
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #000000; /* Dark gray header background color */
+  color: #fff; /* White text color */
+}
+
+/* Logo */
+.logo h1 {
+  color: #ccc;
+  font-size: 36px;
+  margin: 0;
+}
+
+/* Navigation */
+.nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #fff; /* White text color */
+  font-weight: bold;
+  font-size: 18px;
+  transition: color 0.3s ease; /* Added hover animation */
+}
+
+.nav a:hover {
+  color: #007BFF; /* Blue hover color */
+}
+
+/* Main Content */
+.main-content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Search Bar */
+.search-bar {
+  display: flex;
+  align-items: center;
+  margin-top: 87px;
+}
+
+.search-input {
+  padding: 8px;
+  width: 300px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  font-size: 16px;
+  margin-right: 600px;
+  margin-top: -800px;
+}
+
+.search-button {
+  background-color: #007BFF; /* Blue search button background color */
+  color: #fff; /* White text color */
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-top: -800px;
+  margin-left: -600px;
+  margin-right: 370px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Added hover animation */
+}
+
+.search-button:hover {
+  background-color: #0056b3; /* Darker blue hover color */
+}
+
+/* Welcome Text */
+.welcome-text {
+  font-size: 36px;
+  color: #ffffff; /* Dark gray text color */
+  margin: 0;
+}
+
+/* Footer */
+.footer {
+  padding: 25px;
+  background-color: #000000; /* Dark gray footer background color */
+  color: #fff; /* White text color */
+  text-align: center;
+}
+
+.footer ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #fff; /* White text color */
+  font-weight: bold;
+  font-size: 18px;
+  transition: color 0.3s ease; /* Added hover animation */
+}
+
+.footer a:hover {
+  color: #65a71a; /* Blue hover color */
+}
+
+/* Logout Button */
+.logout-button {
+  background-color: #ff6347; /* Red logout button background color */
+  color: #fff; /* White text color */
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Added hover animation */
+}
+
+.logout-button:hover {
+  background-color: #d84315; /* Darker red hover color */
+}
+
+/* Poster Container */
+.poster-container {
+  display: flex;
+  overflow: hidden;
+}
+
+/* Poster */
+.poster {
+  width: 25%;
+  min-width: 300px;
+  background-color: #da1042; /* Dark blue poster background color */
+  color: #fff; /* White text color */
+  padding: 20px;
+  text-align: center;
+  position: relative;
+  transform-origin: center;
+  transition: transform 0.5s ease-in-out, box-shadow 0.3s ease-in-out;
+  border: 1px solid #ccc;
+}
+
+.poster:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.poster h2 {
+  font-size: 24px;
+  margin: 0 0 10px;
+}
+
+.poster p {
+  font-size: 16px;
+  margin: 0 0 20px;
+}
+
+/* Explore Button */
+.explore-button {
+  background-color: #fff; /* White explore button background color */
+  color: #007BFF; /* Blue text color */
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease, color 0.3s ease; /* Added hover animations */
+}
+
+.explore-button:hover {
+  background-color: #007BFF; /* Blue hover background color */
+  color: #fff; /* White hover text color */
+}
+
